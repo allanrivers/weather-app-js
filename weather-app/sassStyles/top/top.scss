@@ -1,0 +1,21 @@
+.searchStates {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-around;
+
+    #state {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .changeTheme {
+        background-color: #29049c; 
+        background-image: linear-gradient(180deg, #29049c 35%, #7618b1 60%, #b95aa3 89%); 
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        outline: none;
+    }
+}
