@@ -1,0 +1,501 @@
+[
+    {
+        "name": "Alabama",
+        "times": [
+            {
+                "morning": "82",
+                "night": "76"
+            }
+        ]
+    },
+
+    {
+        "name": "Alaska",
+        "times": [
+            {
+                "morning": "41",
+                "night": "55"
+            }
+        ]
+    },
+
+    {
+        "name": "Arizona",
+        "times": [
+            {
+                "morning": "84",
+                "night": "93"
+            }
+        ]
+    },
+
+    {
+        "name": "Arkansas",
+        "times": [
+            {
+                "morning": "75",
+                "night": "76"
+            }
+        ]
+    },
+
+    {
+        "name": "California",
+        "times": [
+            {
+                "morning": "59",
+                "night": "72"
+            }
+        ]
+    },
+
+    {
+        "name": "Colorado",
+        "times": [
+            {
+                "morning": "65",
+                "night": "76"
+            }
+        ]
+    },
+
+    {
+        "name": "Connecticut",
+        "times": [
+            {
+                "morning": "59",
+                "night": "58"
+            }
+        ]
+    },
+
+    {
+        "name": "Deleware",
+        "times": [
+            {
+                "morning": "62",
+                "night": "60"
+            }
+        ]
+    },
+
+    {
+        "name": "Florida",
+        "times": [
+            {
+                "morning": "77",
+                "night": "75"
+            }
+        ]
+    },
+
+    {
+        "name": "Georgia",
+        "times": [
+            {
+                "morning": "69",
+                "night": "73"
+            }
+        ]
+    },
+
+    {
+        "name": "Hawaii",
+        "times": [
+            {
+                "morning": "82",
+                "night": "80"
+            }
+        ]
+    },
+
+    {
+        "name": "Idaho",
+        "times": [
+            {
+                "morning": "66",
+                "night": "85"
+            }
+        ]
+    },
+
+    {
+        "name": "Illinois",
+        "times": [
+            {
+                "morning": "68",
+                "night": "69"
+            }
+        ]
+    },
+
+    {
+        "name": "Indiana",
+        "times": [
+            {
+                "morning": "66",
+                "night": "67"
+            }
+        ]
+    },
+
+    {
+        "name": "Iowa",
+        "times": [
+            {
+                "morning": "70",
+                "night": "73"
+            }
+        ]
+    },
+
+    {
+        "name": "Kansas",
+        "times": [
+            {
+                "morning": "67",
+                "night": "74"
+            }
+        ]
+    },
+
+    {
+        "name": "Kentucky",
+        "times": [
+            {
+                "morning": "65",
+                "night": "65"
+            }
+        ]
+    },
+
+    {
+        "name": "Louisiana",
+        "times": [
+            {
+                "morning": "84",
+                "night": "81"
+            }
+        ]
+    },
+
+    {
+        "name": "Maine",
+        "times": [
+            {
+                "morning": "57",
+                "night": "54"
+            }
+        ]
+    },
+
+    {
+        "name": "Maryland",
+        "times": [
+            {
+                "morning": "63",
+                "night": "64"
+            }
+        ]
+    },
+
+    {
+        "name": "Massachusetts",
+        "times": [
+            {
+                "morning": "62",
+                "night": "57"
+            }
+        ]
+    },
+
+    {
+        "name": "Michigan",
+        "times": [
+            {
+                "morning": "65",
+                "night": "64"
+            }
+        ]
+    },
+
+    {
+        "name": "Minnesota",
+        "times": [
+            {
+                "morning": "69",
+                "night": "79"
+            }
+        ]
+    },
+
+    {
+        "name": "Mississippi",
+        "times": [
+            {
+                "morning": "81",
+                "night": "78"
+            }
+        ]
+    },
+
+    {
+        "name": "Missouri",
+        "times": [
+            {
+                "morning": "81",
+                "night": "78"
+            }
+        ]
+    },
+
+    {
+        "name": "Montana",
+        "times": [
+            {
+                "morning": "68",
+                "night": "72"
+            }
+        ]
+    },
+
+    {
+        "name": "Nebraska",
+        "times": [
+            {
+                "morning": "67",
+                "night": "73"
+            }
+        ]
+    },
+
+    {
+        "name": "Nevada",
+        "times": [
+            {
+                "morning": "54",
+                "night": "75"
+            }
+        ]
+    },
+
+    {
+        "name": "New Hampshire",
+        "times": [
+            {
+                "morning": "59",
+                "night": "55"
+            }
+        ]
+    },
+
+    {
+        "name": "New Jersey",
+        "times": [
+            {
+                "morning": "61",
+                "night": "57"
+            }
+        ]
+    },
+
+    {
+        "name": "New Mexico",
+        "times": [
+            {
+                "morning": "61",
+                "night": "71"
+            }
+        ]
+    },
+
+    {
+        "name": "New York",
+        "times": [
+            {
+                "morning": "58",
+                "night": "55"
+            }
+        ]
+    },
+
+    {
+        "name": "North Carolina",
+        "times": [
+            {
+                "morning": "71",
+                "night": "64"
+            }
+        ]
+    },
+
+    {
+        "name": "North Dakota",
+        "times": [
+            {
+                "morning": "60",
+                "night": "65"
+            }
+        ]
+    },
+
+    {
+        "name": "Ohio",
+        "times": [
+            {
+                "morning": "63",
+                "night": "65"
+            }
+        ]
+    },
+
+    {
+        "name": "Oklahoma",
+        "times": [
+            {
+                "morning": "63",
+                "night": "65"
+            }
+        ]
+    },
+
+    {
+        "name": "Oregon",
+        "times": [
+            {
+                "morning": "61",
+                "night": "67"
+            }
+        ]
+    },
+
+    {
+        "name": "Pennsylvania",
+        "times": [
+            {
+                "morning": "62",
+                "night": "61"
+            }
+        ]
+    },
+
+    {
+        "name": "Rhode Island",
+        "times": [
+            {
+                "morning": "63",
+                "night": "58"
+            }
+        ]
+    },
+
+    {
+        "name": "South Carolina",
+        "times": [
+            {
+                "morning": "76",
+                "night": "73"
+            }
+        ]
+    },
+
+    {
+        "name": "South Dakota",
+        "times": [
+            {
+                "morning": "68",
+                "night": "77"
+            }
+        ]
+    },
+
+    {
+        "name": "Tennessee",
+        "times": [
+            {
+                "morning": "72",
+                "night": "75"
+            }
+        ]
+    },
+
+    {
+        "name": "Texas",
+        "times": [
+            {
+                "morning": "80",
+                "night": "86"
+            }
+        ]
+    },
+
+    {
+        "name": "Utah",
+        "times": [
+            {
+                "morning": "69",
+                "night": "85"
+            }
+        ]
+    },
+
+    {
+        "name": "Vermont",
+        "times": [
+            {
+                "morning": "56",
+                "night": "52"
+            }
+        ]
+    },
+
+    {
+        "name": "Virginia",
+        "times": [
+            {
+                "morning": "64",
+                "night": "64"
+            }
+        ]
+    },
+
+    {
+        "name": "Washington",
+        "times": [
+            {
+                "morning": "62",
+                "night": "70"
+            }
+        ]
+    },
+
+    {
+        "name": "West Virginia",
+        "times": [
+            {
+                "morning": "65",
+                "night": "67"
+            }
+        ]
+    },
+
+    {
+        "name": "Wisconsin",
+        "times": [
+            {
+                "morning": "67",
+                "night": "73"
+            }
+        ]
+    },
+
+    {
+        "name": "Wyoming",
+        "times": [
+            {
+                "morning": "70",
+                "night": "80"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 20px;
+
+    .card {
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);        
+        text-align: center;
+        cursor: pointer;
+        height: 35vh;
+
+        .temps {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+}
