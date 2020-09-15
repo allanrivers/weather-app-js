@@ -1,5 +1,6 @@
 // Input for search method
 const state = document.getElementById("state");
+let tempVal = true;
 
 state.addEventListener("change", (e) => {
   const target = e.target.value;
@@ -12,11 +13,28 @@ const fetchData = () => {
     .then((data) => showUI(data));
 };
 
+
 // Create the UI using fetched data
 const showUI = (result) => {
-  const resultsReceived = result.map((result) => {
+    const resultsReceived = result.map((result) => {
+            const outputTemp = () => {
+                let morningTemp = Number(result.times[0].morning)
+                let nightTemp = result.times[0].night
+
+                if(tempVal) {
+                    if(morningTemp >= 60 && morningTemp < 80) {
+                        return `<img src="./partlycloudy.png">`
+                    }  else if (morningTemp > 80) {
+                        return `<img src="./sunny.png">`
+                    }   else if (morningTemp < 60) {
+                        return `<img src="./windy.png">`
+                    }
+                }
+            }
+            outputTemp()
     let card = `<div class="card">
         <h1>${result.name}</h1>
+        ${outputTemp()}
         <div class="temps">
             <h4 class="morningTemp">${result.times[0].morning}<sup>o</sup></h4>
             <h4 class="nightTemp">${result.times[0].night}<sup>o</sup></h4>
@@ -31,7 +49,6 @@ const showUI = (result) => {
 fetchData();
 
 // Change theme
-let tempVal = true;
 const btnTheme = document.querySelector(".changeTheme");
 
 // ChangeTempTheme function

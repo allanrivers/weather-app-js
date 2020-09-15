@@ -3,14 +3,19 @@ body {
   height: 100vh;
 }
 
+body #title {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
 .cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
   grid-gap: 20px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -23,6 +28,15 @@ body {
   border-radius: 5px;
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.cards .card img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .cards .card h1 {
@@ -30,7 +44,7 @@ body {
 }
 
 .cards .card .temps {
-  height: 70%;
+  height: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
