@@ -40,29 +40,33 @@ const changeTempTheme = () => {
   tempVal = !tempVal;
   // Variable for card class
   const themeTemp = document.querySelectorAll(".card");
-  let nightCss =
-    "background-color: #1f2a65; background-image: linear-gradient(180deg, #1f2a65 35%, #664e91 75%, #9461a1 89%); color: white;";
+  // Morning CSS
   let morningCss =
-    "background-color: #0093E9; background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); color: #333;";
-  let morningTempHTML = document.querySelectorAll('.morningTemp');
-  let nightTempHTML = document.querySelectorAll('.nightTemp');
+  "background-color: #0093E9; background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); color: #333; ";
+  //Night CSS
+  let nightCss =
+    "background-color: #1f2a65; background-image: linear-gradient(180deg, #1f2a65 35%, #664e91 75%, #9461a1 89%); color: rgba(255,255,255,0.85); box-shadow: 1px 1px 2px 2px rgba(255, 255, 255, 0.5);";
+    // Call temp variables
+  let morningTempHTML = document.querySelectorAll(".morningTemp");
+  let nightTempHTML = document.querySelectorAll(".nightTemp");
 
   // if tempVal is true then display morning, else display night
   if (tempVal) {
     for (let i = 0; i < themeTemp.length; i++) {
-        themeTemp[i].setAttribute("style", morningCss);
-        nightTempHTML[i].style.display = 'none';
-        morningTempHTML[i].style.display = 'block';
-
+      themeTemp[i].setAttribute("style", morningCss);
+      nightTempHTML[i].style.display = "none";
+      morningTempHTML[i].style.display = "block";
     }
+    document.body.style.backgroundImage = "url('../../morning.jpg')";
     btnTheme.innerText = "Check night temp";
     btnTheme.setAttribute("style", nightCss);
   } else {
     for (let i = 0; i < themeTemp.length; i++) {
-        themeTemp[i].setAttribute("style", nightCss);
-        nightTempHTML[i].style.display = 'block';
-        morningTempHTML[i].style.display = 'none';
+      themeTemp[i].setAttribute("style", nightCss);
+      nightTempHTML[i].style.display = "block";
+      morningTempHTML[i].style.display = "none";
     }
+    document.body.style.background = "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('../../night.jpg')";
     btnTheme.innerText = "Check morning temp";
     btnTheme.setAttribute("style", morningCss);
   }
