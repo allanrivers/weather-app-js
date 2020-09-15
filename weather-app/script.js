@@ -18,8 +18,8 @@ const showUI = (result) => {
     let card = `<div class="card">
         <h1>${result.name}</h1>
         <div class="temps">
-            <h4 class="morningTemp">Morning: ${result.times[0].morning}</h4>
-            <h4 class="nightTemp">Night: ${result.times[0].night}</h4>
+            <h4 class="morningTemp">${result.times[0].morning}<sup>o</sup></h4>
+            <h4 class="nightTemp">${result.times[0].night}<sup>o</sup></h4>
         <div>
     </div>`;
     document.querySelector(".cards").innerHTML += card;
@@ -39,33 +39,32 @@ const changeTempTheme = () => {
   // change tempVal boolean to the opposite
   tempVal = !tempVal;
   // Variable for card class
-  const morningTemp = document.querySelectorAll(".card");
+  const themeTemp = document.querySelectorAll(".card");
+  let nightCss =
+    "background-color: #1f2a65; background-image: linear-gradient(180deg, #1f2a65 35%, #664e91 75%, #9461a1 89%); color: white;";
+  let morningCss =
+    "background-color: #0093E9; background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); color: #333;";
+  let morningTempHTML = document.querySelectorAll('.morningTemp');
+  let nightTempHTML = document.querySelectorAll('.nightTemp');
 
-  //
+  // if tempVal is true then display morning, else display night
   if (tempVal) {
-    for (let i = 0; i < morningTemp.length; i++) {
-      morningTemp[i].setAttribute(
-        "style",
-        "background-color: #0093E9; background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);"
-      );
+    for (let i = 0; i < themeTemp.length; i++) {
+        themeTemp[i].setAttribute("style", morningCss);
+        nightTempHTML[i].style.display = 'none';
+        morningTempHTML[i].style.display = 'block';
+
     }
     btnTheme.innerText = "Check night temp";
-    btnTheme.setAttribute(
-      "style",
-      "background-color: ##29049c; background-image: linear-gradient(180deg, #29049c 35%, #7618b1 60%, #b95aa3 89%); color: white;"
-    );
+    btnTheme.setAttribute("style", nightCss);
   } else {
-    for (let i = 0; i < morningTemp.length; i++) {
-      morningTemp[i].setAttribute(
-        "style",
-        "background-color: ##29049c; background-image: linear-gradient(180deg, #29049c 35%, #7618b1 60%, #b95aa3 89%); color: white;"
-      );
+    for (let i = 0; i < themeTemp.length; i++) {
+        themeTemp[i].setAttribute("style", nightCss);
+        nightTempHTML[i].style.display = 'block';
+        morningTempHTML[i].style.display = 'none';
     }
     btnTheme.innerText = "Check morning temp";
-    btnTheme.setAttribute(
-      "style",
-      "background-color: #0093E9; background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); color: #333;"
-    );
+    btnTheme.setAttribute("style", morningCss);
   }
 };
 

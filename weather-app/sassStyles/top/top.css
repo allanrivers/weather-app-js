@@ -13,9 +13,9 @@
 }
 
 .searchStates .changeTheme {
-  background-color: #29049c;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #29049c), color-stop(60%, #7618b1), color-stop(89%, #b95aa3));
-  background-image: linear-gradient(180deg, #29049c 35%, #7618b1 60%, #b95aa3 89%);
+  background-color: #1f2a65;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #1f2a65), color-stop(75%, #664e91), color-stop(89%, #9461a1));
+  background-image: linear-gradient(180deg, #1f2a65 35%, #664e91 75%, #9461a1 89%);
   color: white;
   cursor: pointer;
   border: none;
