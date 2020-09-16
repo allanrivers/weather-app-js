@@ -20,7 +20,7 @@ const showUI = (result) => {
       if (tempVal) {
         if (morningTemp >= 60 && morningTemp < 80) {
           return `./partlycloudy.png`;
-        } else if (morningTemp > 80) {
+        } else if (morningTemp >= 80) {
           return `./sunny.png`;
         } else if (morningTemp < 60) {
           return `./windy.png`;
