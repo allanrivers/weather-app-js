@@ -58,3 +58,27 @@ body {
         z-index: 100;
     }
 }
+
+@media (max-width: 1450px) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body {
+        background: url('../../morning.jpg');
+        height: 100vh;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
